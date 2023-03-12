@@ -1,0 +1,15 @@
+var Nome
+var Idade
+var AnoDeNascimento
+Idade = prompt('Insira sua idade')
+Nome = prompt('Insira seu nome:')
+AnoDeNascimento = prompt('Insira seu ano de nascimento')
+console.log(Nome)
+console.log(Idade)
+console.log(AnoDeNascimento)
+
+if(Idade % 2 == 0) {  
+    console.log('Está liberado o consumo de bebidas alcolicas')
+}else{
+    console.log('nao esta liberado o consumo de bebidas alcolicas')
+}
